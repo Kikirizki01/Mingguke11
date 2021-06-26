@@ -18,8 +18,8 @@ public class CountLetters {
 				  counts[word.charAt(i) - 'A']++;
 			} catch (ArrayIndexOutOfBoundsException e) {
 				  System.out.println("'" + word.charAt(i) + "' isn't a letter");
-			    }
-    }
+			}
+                }
 		// print frequencies
 		System.out.println();
 		for (int i = 0; i < counts.length; i++)
