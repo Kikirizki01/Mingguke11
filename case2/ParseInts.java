@@ -30,5 +30,5 @@ public class ParseInts {
 	public static void setLine(String line) {
 		ParseInts.line = line;
 	}
-
+ 
 }
