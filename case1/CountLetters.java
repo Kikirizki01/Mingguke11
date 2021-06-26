@@ -27,4 +27,4 @@ public class CountLetters {
 				System.out.println((char) (i + 'A') + ": " + counts[i]);
 		scan.close();
 	}
-}
+}  
